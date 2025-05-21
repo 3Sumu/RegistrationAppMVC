@@ -23,7 +23,7 @@ public class JdbcUtility {
 		String user = "root";
 		String pass = "Sumansql@3";
 		
-		System.out.println("Connection established!");
+		System.out.println("Connection established");
 
 			return DriverManager.getConnection(url, user, pass);
 		
