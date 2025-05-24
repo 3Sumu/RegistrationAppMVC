@@ -15,8 +15,6 @@ public class JdbcUtility {
 		}
 		
 		System.out.println("Driver loaded");
-		//For github learning delete afterwards
-		System.out.println("This is main branch");
 	}
 	
 	public static Connection getConnection() throws SQLException {
