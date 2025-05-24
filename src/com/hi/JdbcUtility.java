@@ -25,6 +25,7 @@ public class JdbcUtility {
 		
 		System.out.println("Connection established!");
 		System.out.println("Adding for feature1 branch");
+		System.out.println("Adding for feature2 branch");
 
 			return DriverManager.getConnection(url, user, pass);
 		
